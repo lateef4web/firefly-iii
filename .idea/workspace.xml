@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a5d8aa4-1157-44dc-b694-37237e9d6990" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/firefly-iii.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ci/php-cs-fixer/.php-cs-fixer.php" beforeDir="false" afterPath="$PROJECT_DIR$/.ci/php-cs-fixer/.php-cs-fixer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ci/php-cs-fixer/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.ci/php-cs-fixer/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ci/phpcs.sh" beforeDir="false" afterPath="$PROJECT_DIR$/.ci/phpcs.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/CODEOWNERS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/fr.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/assets/img/imac-complete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/assets/img/ipad-complete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/assets/img/iphone-complete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/assets/img/logo-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/code_of_conduct.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/contributing.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/dependabot.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/funding.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/its_you_not_me.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/label-actions.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/mergify.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/pull_request_template.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/security.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/support.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/cleanup.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/close-duplicates.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/closed-issues.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/debug-info-actions.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/depsreview.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/label-actions.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/lock.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/release.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/stale.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Autocomplete/AccountController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Autocomplete/AccountController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Chart/AccountController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Chart/AccountController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Chart/BudgetController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Chart/BudgetController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Chart/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Chart/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Insight/Expense/BillController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Insight/Expense/BillController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Insight/Expense/PeriodController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Insight/Expense/PeriodController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Insight/Expense/TagController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Insight/Expense/TagController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Insight/Income/PeriodController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Insight/Income/PeriodController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Insight/Income/TagController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Insight/Income/TagController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Insight/Transfer/PeriodController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Insight/Transfer/PeriodController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Insight/Transfer/TagController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Insight/Transfer/TagController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Account/ListController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Account/ListController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Account/ShowController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Account/ShowController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Account/StoreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Account/StoreController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Account/UpdateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Account/UpdateController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/AvailableBudget/ShowController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/AvailableBudget/ShowController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Bill/ShowController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Bill/ShowController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Bill/StoreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Bill/StoreController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Bill/UpdateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Bill/UpdateController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Budget/ListController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Budget/ListController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Budget/ShowController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Budget/ShowController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Budget/StoreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Budget/StoreController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Budget/UpdateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Budget/UpdateController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/BudgetLimit/ShowController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/BudgetLimit/ShowController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/BudgetLimit/StoreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/BudgetLimit/StoreController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/BudgetLimit/UpdateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/BudgetLimit/UpdateController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Category/ShowController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Category/ShowController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Category/StoreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Category/StoreController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Category/UpdateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Category/UpdateController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/CurrencyExchangeRate/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/CurrencyExchangeRate/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/CurrencyExchangeRate/ShowController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/CurrencyExchangeRate/ShowController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/CurrencyExchangeRate/StoreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/CurrencyExchangeRate/StoreController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/CurrencyExchangeRate/UpdateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/CurrencyExchangeRate/UpdateController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/ObjectGroup/ListController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/ObjectGroup/ListController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/PiggyBank/ListController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/PiggyBank/ListController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/PiggyBank/ShowController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/PiggyBank/ShowController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/PiggyBank/StoreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/PiggyBank/StoreController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/PiggyBank/UpdateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/PiggyBank/UpdateController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Recurrence/ShowController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Recurrence/ShowController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Recurrence/StoreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Recurrence/StoreController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Recurrence/UpdateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Recurrence/UpdateController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Transaction/ListController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Transaction/ListController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Transaction/ShowController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/Transaction/ShowController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/TransactionCurrency/ListController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/TransactionCurrency/ListController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/TransactionCurrency/ShowController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/TransactionCurrency/ShowController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/TransactionCurrency/UpdateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Models/TransactionCurrency/UpdateController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Search/AccountController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Search/AccountController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/Summary/BasicController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/Summary/BasicController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/System/CronController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/System/CronController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Controllers/User/PreferencesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Controllers/User/PreferencesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Requests/Generic/DateRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Requests/Models/PiggyBank/StoreRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Requests/Models/PiggyBank/StoreRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V1/Requests/Models/UserGroup/UpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Api/V1/Requests/Models/UserGroup/UpdateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Autocomplete/AccountController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Autocomplete/CategoryController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Autocomplete/TagController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Autocomplete/TransactionController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Chart/AccountController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Chart/BalanceController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Chart/BudgetController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Chart/CategoryController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Data/Bulk/AccountController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Data/Export/AccountController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Data/MassDestroy/AccountController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Model/Account/IndexController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Model/Account/ShowController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Model/Account/UpdateController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Model/Bill/IndexController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Model/Bill/ShowController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Model/Bill/SumController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Model/Budget/IndexController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Model/Budget/ShowController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Model/Budget/SumController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Model/BudgetLimit/IndexController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Model/BudgetLimit/ListController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Model/Currency/IndexController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Model/PiggyBank/IndexController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Model/Transaction/ShowController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Model/Transaction/StoreController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Model/Transaction/UpdateController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Model/TransactionCurrency/IndexController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Model/TransactionCurrency/ShowController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Search/AccountController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Summary/BasicController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Summary/NetWorthController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/System/ConfigurationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/System/DebugController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/System/PreferencesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/System/VersionUpdateController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Transaction/List/AccountController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Transaction/List/TransactionController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/Transaction/Sum/BillController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/UserGroup/DestroyController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/UserGroup/IndexController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/UserGroup/ShowController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/UserGroup/StoreController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Controllers/UserGroup/UpdateController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Request/Autocomplete/AutocompleteRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Request/Chart/BalanceChartRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Request/Chart/ChartRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Request/Chart/DashboardChartRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Request/Generic/DateRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Request/Generic/SingleDateRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Request/Model/Account/IndexRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Request/Model/Account/UpdateRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Request/Model/Transaction/InfiniteListRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Request/Model/Transaction/ListRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Request/Model/Transaction/StoreRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Request/Model/Transaction/UpdateRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Request/Model/TransactionCurrency/IndexRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Request/UserGroup/StoreRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Request/UserGroup/UpdateMembershipRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Request/UserGroup/UpdateRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Api/V2/Response/Sum/AutoSum.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Commands/Correction/CorrectsAmounts.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Commands/Correction/CorrectsAmounts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Commands/Correction/CorrectsCurrencies.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Commands/Correction/CorrectsCurrencies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Commands/Correction/CorrectsDatabase.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Commands/Correction/CorrectsDatabase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Commands/Correction/CorrectsNativeAmounts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Commands/Correction/CorrectsOpeningBalanceCurrencies.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Commands/Correction/CorrectsOpeningBalanceCurrencies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Commands/System/OutputsInstructions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Commands/System/OutputsInstructions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Commands/Tools/Cron.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Commands/Tools/Cron.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Commands/Upgrade/UpgradesAccountCurrencies.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Commands/Upgrade/UpgradesAccountCurrencies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Commands/Upgrade/UpgradesBudgetLimits.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Commands/Upgrade/UpgradesBudgetLimits.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Commands/Upgrade/UpgradesCurrencyPreferences.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Commands/Upgrade/UpgradesCurrencyPreferences.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Commands/Upgrade/UpgradesDatabase.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Commands/Upgrade/UpgradesDatabase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Commands/Upgrade/UpgradesMultiPiggyBanks.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Commands/Upgrade/UpgradesMultiPiggyBanks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Commands/Upgrade/UpgradesNativeAmounts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Events/Preferences/UserGroupChangedDefaultCurrency.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Events/WarnUserAboutBill.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Factory/BillFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Factory/BillFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Factory/PiggyBankFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Factory/PiggyBankFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Factory/TransactionJournalFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Factory/TransactionJournalFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Generator/Report/Audit/MonthReportGenerator.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Generator/Report/Audit/MonthReportGenerator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Generator/Webhook/StandardMessageGenerator.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Generator/Webhook/StandardMessageGenerator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Handlers/Events/BillEventHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Handlers/Events/BillEventHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Handlers/Events/PreferencesEventHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Handlers/Events/PreferencesEventHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Handlers/Events/WebhookEventHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Handlers/Events/WebhookEventHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Handlers/Observer/AccountObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Handlers/Observer/AccountObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Handlers/Observer/AutoBudgetObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Handlers/Observer/AutoBudgetObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Handlers/Observer/AvailableBudgetObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Handlers/Observer/AvailableBudgetObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Handlers/Observer/BillObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Handlers/Observer/BillObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Handlers/Observer/BudgetLimitObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Handlers/Observer/BudgetLimitObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Handlers/Observer/PiggyBankEventObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Handlers/Observer/PiggyBankEventObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Handlers/Observer/PiggyBankObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Handlers/Observer/PiggyBankObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Handlers/Observer/TransactionObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Handlers/Observer/TransactionObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Helpers/Collector/GroupCollector.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Helpers/Collector/GroupCollector.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Helpers/Report/NetWorth.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Helpers/Report/NetWorth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Helpers/Report/NetWorthInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Helpers/Report/NetWorthInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Account/CreateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Account/CreateController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Account/EditController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Account/EditController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Account/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Account/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Account/ReconcileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Account/ReconcileController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Account/ShowController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Account/ShowController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Bill/CreateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Bill/CreateController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Bill/EditController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Bill/EditController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Bill/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Bill/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Bill/ShowController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Bill/ShowController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Budget/CreateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Budget/CreateController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Budget/EditController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Budget/EditController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Budget/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Budget/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Budget/ShowController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Budget/ShowController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Chart/AccountController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Chart/AccountController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Chart/BillController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Chart/BillController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Chart/BudgetController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Chart/BudgetController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Chart/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Chart/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Chart/CategoryReportController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Chart/CategoryReportController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Chart/ReportController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Chart/ReportController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DebugController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DebugController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/JavascriptController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/JavascriptController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Json/BoxController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Json/BoxController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Json/FrontpageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Json/FrontpageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Json/ReconcileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Json/ReconcileController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PiggyBank/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PiggyBank/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PiggyBank/ShowController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PiggyBank/ShowController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PreferencesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PreferencesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Recurring/CreateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Recurring/CreateController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Recurring/EditController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Recurring/EditController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Recurring/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Recurring/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Recurring/ShowController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Recurring/ShowController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Report/BudgetController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Report/BudgetController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReportController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ReportController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Rule/CreateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Rule/CreateController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TagController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TagController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Transaction/ConvertController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Transaction/ConvertController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Transaction/CreateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Transaction/CreateController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Transaction/EditController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Transaction/EditController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Transaction/ShowController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Transaction/ShowController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TransactionCurrency/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TransactionCurrency/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Range.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Range.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/BudgetFormUpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/BudgetFormUpdateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/PiggyBankStoreRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/PiggyBankStoreRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/PiggyBankUpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/PiggyBankUpdateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Jobs/WarnAboutBills.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Jobs/WarnAboutBills.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/TransactionCurrency.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/TransactionCurrency.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/Account/AccountRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/Account/AccountRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/Account/AccountRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/Account/AccountRepositoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/Account/AccountTasker.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/Account/AccountTasker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/AuditLogEntry/ALERepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/AuditLogEntry/ALERepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/AuditLogEntry/ALERepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/AuditLogEntry/ALERepositoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/Bill/BillRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/Bill/BillRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/Budget/AvailableBudgetRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/Budget/AvailableBudgetRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/Budget/BudgetLimitRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/Budget/BudgetLimitRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/Budget/BudgetRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/Budget/BudgetRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/Budget/NoBudgetRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/Budget/NoBudgetRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/Budget/NoBudgetRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/Budget/NoBudgetRepositoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/Budget/OperationsRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/Budget/OperationsRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/Budget/OperationsRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/Budget/OperationsRepositoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/Category/OperationsRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/Category/OperationsRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/Category/OperationsRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/Category/OperationsRepositoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/Currency/CurrencyRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/Currency/CurrencyRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/PiggyBank/ModifiesPiggyBanks.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/PiggyBank/ModifiesPiggyBanks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/PiggyBank/PiggyBankRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/PiggyBank/PiggyBankRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/PiggyBank/PiggyBankRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/PiggyBank/PiggyBankRepositoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/Tag/TagRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/Tag/TagRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/TransactionGroup/TransactionGroupRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/TransactionGroup/TransactionGroupRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/UserGroup/UserGroupRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/UserGroup/UserGroupRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/UserGroups/Bill/BillRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/UserGroups/Bill/BillRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/UserGroups/Budget/AvailableBudgetRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/UserGroups/Budget/AvailableBudgetRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/UserGroups/Currency/CurrencyRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/UserGroups/Currency/CurrencyRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/Internal/Support/AccountServiceTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Internal/Support/AccountServiceTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/Internal/Support/RecurringTransactionTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Internal/Support/RecurringTransactionTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/Internal/Update/BillUpdateService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Internal/Update/BillUpdateService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/Webhook/StandardWebhookSender.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Webhook/StandardWebhookSender.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Amount.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Amount.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Chart/Budget/FrontpageChartGenerator.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Chart/Budget/FrontpageChartGenerator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Chart/Category/FrontpageChartGenerator.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Chart/Category/FrontpageChartGenerator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Chart/Category/WholePeriodChartGenerator.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Chart/Category/WholePeriodChartGenerator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Chart/ChartData.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Chart/ChartData.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Cronjobs/AutoBudgetCronjob.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Cronjobs/AutoBudgetCronjob.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Cronjobs/BillWarningCronjob.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Cronjobs/BillWarningCronjob.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Cronjobs/ExchangeRatesCronjob.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Cronjobs/ExchangeRatesCronjob.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Cronjobs/UpdateCheckCronjob.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Cronjobs/UpdateCheckCronjob.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Debug/Timer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Debug/Timer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Export/ExportDataGenerator.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Export/ExportDataGenerator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Form/CurrencyForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Form/CurrencyForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Http/Api/AccountBalanceGrouped.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Http/Api/AccountBalanceGrouped.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Http/Api/CleansChartData.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Http/Api/CleansChartData.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Http/Api/SummaryBalanceGrouped.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Http/Api/SummaryBalanceGrouped.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Http/Controllers/AugumentData.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Http/Controllers/AugumentData.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Http/Controllers/BasicDataSupport.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Http/Controllers/BasicDataSupport.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Http/Controllers/ChartGeneration.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Http/Controllers/ChartGeneration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Http/Controllers/CronRunner.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Http/Controllers/CronRunner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Http/Controllers/PeriodOverview.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Http/Controllers/PeriodOverview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/JsonApi/Enrichments/AccountEnrichment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/JsonApi/Enrichments/AccountEnrichment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/JsonApi/Enrichments/TransactionGroupEnrichment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/JsonApi/Enrichments/TransactionGroupEnrichment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Models/BillDateCalculator.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Models/BillDateCalculator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Navigation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Preferences.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Preferences.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Report/Budget/BudgetReportGenerator.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Report/Budget/BudgetReportGenerator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Report/Summarizer/TransactionSummarizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Report/Summarizer/TransactionSummarizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Repositories/Recurring/CalculateXOccurrencesSince.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Repositories/Recurring/CalculateXOccurrencesSince.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Steam.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Steam.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Twig/AmountFormat.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Twig/AmountFormat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Support/Twig/General.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Twig/General.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Transformers/AccountTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Transformers/AccountTransformer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Transformers/AttachmentTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Transformers/AttachmentTransformer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Transformers/AvailableBudgetTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Transformers/AvailableBudgetTransformer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Transformers/BillTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Transformers/BillTransformer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Transformers/BudgetLimitTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Transformers/BudgetLimitTransformer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Transformers/BudgetTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Transformers/BudgetTransformer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Transformers/CategoryTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Transformers/CategoryTransformer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Transformers/CurrencyTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Transformers/CurrencyTransformer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Transformers/PiggyBankEventTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Transformers/PiggyBankEventTransformer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Transformers/PiggyBankTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Transformers/PiggyBankTransformer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Transformers/RecurrenceTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Transformers/RecurrenceTransformer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Transformers/TransactionGroupTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Transformers/TransactionGroupTransformer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Transformers/UserGroupTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Transformers/UserGroupTransformer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Transformers/V2/AbstractTransformer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Transformers/V2/AccountTransformer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Transformers/V2/BillTransformer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Transformers/V2/BudgetLimitTransformer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Transformers/V2/BudgetTransformer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Transformers/V2/CurrencyTransformer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Transformers/V2/ExchangeRateTransformer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Transformers/V2/PiggyBankTransformer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Transformers/V2/PreferenceTransformer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Transformers/V2/TransactionGroupTransformer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Transformers/V2/UserGroupTransformer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Transformers/WebhookMessageTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Transformers/WebhookMessageTransformer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Validation/TransactionValidation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Validation/TransactionValidation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/firefly.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/firefly.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/translations.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/translations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/TransactionCurrencySeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/TransactionCurrencySeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/v1/js/ff/rules/create-edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/v1/js/ff/rules/create-edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/components/administrations/Edit.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/components/administrations/Edit.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/components/administrations/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/components/administrations/Index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/i18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/i18n.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/af.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/af.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/bg.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/bg.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/ca.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/ca.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/cs.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/cs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/da.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/da.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/el.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/el.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/en-gb.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/en-gb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/es.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/es.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/fa.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/fa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/fi.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/fi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/fr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/hu.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/hu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/id.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/id.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/it.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/it.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/ja.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/ja.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/ko.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/ko.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/nb.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/nb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/nl.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/nl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/nn.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/nn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/pl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/pt-br.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/pt-br.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/pt.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/pt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/ro.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/ro.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/ru.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/sk.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/sk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/sl.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/sl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/sv.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/sv.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/tr.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/tr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/uk.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/uk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/vi.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/vi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/zh-cn.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/zh-cn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v1/src/locales/zh-tw.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v1/src/locales/zh-tw.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/api/v1/chart/account/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/api/v1/chart/account/dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/api/v1/model/account/put.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/api/v1/model/account/put.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/api/v1/model/currency/get.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/api/v1/model/currency/get.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/api/v1/model/user-group/get.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/api/v1/model/user-group/get.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/api/v1/model/user-group/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/api/v1/model/user-group/post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/api/v1/model/user-group/put.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/api/v1/model/user-group/put.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/chart/account/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/chart/account/dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/chart/budget/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/chart/budget/dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/chart/category/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/chart/category/dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/model/account/get.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/model/account/get.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/model/account/put.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/model/account/put.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/model/budget/get.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/model/budget/get.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/model/currency/get.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/model/currency/get.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/model/piggy-bank/get.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/model/piggy-bank/get.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/model/subscription/get.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/model/subscription/get.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/model/transaction/get.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/model/transaction/get.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/model/transaction/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/model/transaction/post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/model/transaction/put.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/model/transaction/put.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/model/user-group/get.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/model/user-group/get.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/model/user-group/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/model/user-group/post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/model/user-group/put.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/model/user-group/put.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/summary/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/api/v2/summary/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/boot/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/boot/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/css/grid-ff3-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/css/grid-ff3-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/pages/accounts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/pages/accounts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/pages/dashboard/accounts.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/pages/dashboard/accounts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/pages/dashboard/boxes.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/pages/dashboard/boxes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/pages/dashboard/budgets.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/pages/dashboard/budgets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/pages/dashboard/categories.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/pages/dashboard/categories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/pages/dashboard/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/pages/dashboard/dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/pages/dashboard/piggies.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/pages/dashboard/piggies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/pages/dashboard/sankey.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/pages/dashboard/sankey.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/pages/dashboard/subscriptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/pages/dashboard/subscriptions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/pages/transactions/create.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/pages/transactions/create.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/pages/transactions/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/pages/transactions/edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/pages/transactions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/pages/transactions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/pages/transactions/shared/load-currencies.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/pages/transactions/shared/load-currencies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/sass/adminlte-filtered.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/sass/adminlte-filtered.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/store/get-configuration.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/store/get-configuration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/store/get-fresh-variable.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/store/get-fresh-variable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/store/get-variable.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/store/get-variable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/store/set-variable.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/store/set-variable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/support/default-chart-settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/support/default-chart-settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/support/get-colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/support/get-colors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/support/page-settings/show-internals-button.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/support/page-settings/show-internals-button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/src/util/format-money.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/src/util/format-money.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/v2/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/v2/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en_US/email.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en_US/email.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en_US/firefly.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en_US/firefly.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en_US/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en_US/form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en_US/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en_US/list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en_US/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en_US/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/accounts/show.twig" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/accounts/show.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/bills/create.twig" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/bills/create.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/bills/show.twig" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/bills/show.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/budgets/edit.twig" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/budgets/edit.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/budgets/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/budgets/index.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/budgets/show.twig" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/budgets/show.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/currencies/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/currencies/index.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form/balance.twig" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/form/balance.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/json/piggy-banks.twig" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/json/piggy-banks.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/list/accounts.twig" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/list/accounts.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/list/bills.twig" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/list/bills.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/list/groups-tiny.twig" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/list/groups-tiny.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/list/groups.twig" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/list/groups.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/list/periods.twig" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/list/periods.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/list/piggy-banks.twig" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/list/piggy-banks.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/debug-table.twig" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/debug-table.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/preferences/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/preferences/index.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/recurring/create.twig" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/recurring/create.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/reports/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/reports/index.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/rules/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/rules/index.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/test/test.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/transactions/create.twig" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/transactions/create.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/transactions/edit.twig" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/transactions/edit.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/transactions/show.twig" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/transactions/show.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/v2/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/v2/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/v2/partials/dashboard/account-chart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/v2/partials/dashboard/account-chart.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/v2/partials/dashboard/account-list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/v2/partials/dashboard/account-list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/v2/partials/dashboard/boxes.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/v2/partials/dashboard/boxes.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/v2/partials/dashboard/budget-chart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/v2/partials/dashboard/budget-chart.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/v2/partials/dashboard/category-chart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/v2/partials/dashboard/category-chart.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/v2/partials/dashboard/piggy-banks.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/v2/partials/dashboard/piggy-banks.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/v2/partials/dashboard/sankey.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/v2/partials/dashboard/sankey.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/v2/partials/dashboard/subscriptions.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/v2/partials/dashboard/subscriptions.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/v2/partials/elements/amount.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/v2/partials/elements/amount.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/v2/partials/form/transaction/amount.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/v2/partials/form/transaction/amount.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/vendor/mail/text/message.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/mail/text/message.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerConfigs">
+    <option name="configs">
+      <option value="$PROJECT_DIR$/.ci/phpmd/composer.json" />
+      <option value="$PROJECT_DIR$/.ci/php-cs-fixer/composer.json" />
+    </option>
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\wamp64\bin\php\php8.2.13\php.exe">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/rcrowe/twigbridge" />
+      <path value="$PROJECT_DIR$/vendor/rector/rector" />
+      <path value="$PROJECT_DIR$/vendor/spatie/backtrace" />
+      <path value="$PROJECT_DIR$/vendor/spatie/error-solutions" />
+      <path value="$PROJECT_DIR$/vendor/nyholm/psr7" />
+      <path value="$PROJECT_DIR$/vendor/predis/predis" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/spatie/period" />
+      <path value="$PROJECT_DIR$/vendor/staabm/side-effects-detector" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/dasprid/enum" />
+      <path value="$PROJECT_DIR$/vendor/spatie/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/spatie/ignition" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-html" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-ignition" />
+      <path value="$PROJECT_DIR$/vendor/laravel/prompts" />
+      <path value="$PROJECT_DIR$/vendor/laravel/sanctum" />
+      <path value="$PROJECT_DIR$/vendor/laravel/serializable-closure" />
+      <path value="$PROJECT_DIR$/vendor/laravel/slack-notification-channel" />
+      <path value="$PROJECT_DIR$/vendor/dflydev/dot-access-data" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/laravel/passport" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/extension-installer" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpstan" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpstan-deprecation-rules" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpstan-strict-rules" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/clock" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mailgun-mailer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-uuid" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php83" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php84" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php85" />
+      <path value="$PROJECT_DIR$/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/beberlei/assert" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/php-http/client-common" />
+      <path value="$PROJECT_DIR$/vendor/php-http/discovery" />
+      <path value="$PROJECT_DIR$/vendor/php-http/guzzle7-adapter" />
+      <path value="$PROJECT_DIR$/vendor/php-http/httplug" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/larastan/larastan" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/clock" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/pragmarx/random" />
+      <path value="$PROJECT_DIR$/vendor/carbonphp/carbon-doctrine-types" />
+      <path value="$PROJECT_DIR$/vendor/diglactic/laravel-breadcrumbs" />
+      <path value="$PROJECT_DIR$/vendor/fruitcake/php-cors" />
+      <path value="$PROJECT_DIR$/vendor/php-http/message" />
+      <path value="$PROJECT_DIR$/vendor/php-http/promise" />
+      <path value="$PROJECT_DIR$/vendor/pragmarx/google2fa" />
+      <path value="$PROJECT_DIR$/vendor/pragmarx/google2fa-qrcode" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/uri-template" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/driftingly/rector-laravel" />
+      <path value="$PROJECT_DIR$/vendor/php-debugbar/php-debugbar" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/cloudcreativity/json-api-testing" />
+      <path value="$PROJECT_DIR$/vendor/mailersend/laravel-driver" />
+      <path value="$PROJECT_DIR$/vendor/mailersend/mailersend" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/termwind" />
+      <path value="$PROJECT_DIR$/vendor/laravel-notification-channels/pushover" />
+      <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/vendor/laravel-json-api/testing" />
+      <path value="$PROJECT_DIR$/vendor/thecodingmachine/phpstan-safe-rule" />
+      <path value="$PROJECT_DIR$/vendor/thecodingmachine/safe" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/jc5/google2fa-laravel" />
+      <path value="$PROJECT_DIR$/vendor/jc5/recovery" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/clock" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/clue/stream-filter" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/vendor/nette/schema" />
+      <path value="$PROJECT_DIR$/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/league/config" />
+      <path value="$PROJECT_DIR$/vendor/league/csv" />
+      <path value="$PROJECT_DIR$/vendor/league/event" />
+      <path value="$PROJECT_DIR$/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/gdbots/query-parser" />
+      <path value="$PROJECT_DIR$/vendor/iamcal/sql-parser" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-server" />
+      <path value="$PROJECT_DIR$/vendor/league/uri" />
+      <path value="$PROJECT_DIR$/vendor/league/uri-interfaces" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem-local" />
+      <path value="$PROJECT_DIR$/vendor/league/fractal" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+    </include_path>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="31DuwkEgbsfHojsUem7Du1H7pv7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-PS-251.25410.148" />
+        <option value="bundled-php-predefined-a98d8de5180a-c5828cf854d9-com.jetbrains.php.sharedIndexes-PS-251.25410.148" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a5d8aa4-1157-44dc-b694-37237e9d6990" name="Changes" comment="" />
+      <created>1755071206177</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755071206177</updated>
+      <workItem from="1755071208129" duration="8786000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
