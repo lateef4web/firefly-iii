@@ -1,12 +1,12 @@
 {
-  "name": "firefly-iii",
+  "name": "frontend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "firefly-iii/node_modules/.bin/next dev --turbopack",
-    "build": "firefly-iii/node_modules/.bin/next build",
-    "start": "firefly-iii/node_modules/.bin/next start",
-    "lint": "firefly-iii/node_modules/.bin/next lint"
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "react": "19.1.0",

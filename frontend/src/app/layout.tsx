@@ -4,7 +4,7 @@ import React from "react";
 
 export const metadata: Metadata = {
     title: "Firefly III",
-    description: "Financial management frontend",
+    description: "Financial management firefly",
 };
 
 export default function RootLayout({children}: Readonly<{
