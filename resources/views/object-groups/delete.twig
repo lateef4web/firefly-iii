@@ -23,12 +23,6 @@
                             {{ trans('form.object_group_areYouSure', {'title': objectGroup.title}) }}
                         </p>
 
-                        {% if piggyBanks > 0 %}
-                            <p>
-                                {{ Lang.choice('form.not_delete_piggy_banks', piggyBanks, {count: piggyBanks}) }}
-                            </p>
-                        {% endif %}
-
                     </div>
                     <div class="box-footer">
                         <input type="submit" name="submit" value="{{ trans('form.deletePermanently') }}" class="btn pull-right btn-danger"/>
