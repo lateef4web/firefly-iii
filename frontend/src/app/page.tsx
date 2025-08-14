@@ -1,11 +1,11 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import Layout from "../components/Layout";
+import LayoutDefault from "../components/LayoutDefault";
 
 export default function Home() {
     return (
-        <Layout title="Home">
+        <LayoutDefault title="Home">
             <div className="font-sans min-h-screen flex flex-col items-center justify-center p-8">
                 <main className="text-center space-y-4">
                     <h1 className="text-4xl font-bold">Welcome to Firefly III</h1>
@@ -21,6 +21,6 @@ export default function Home() {
                     </p>
                 </main>
             </div>
-        </Layout>
+        </LayoutDefault>
     );
 }
