@@ -1,16 +1,17 @@
-import React from "react";
+'use client';
+
+import React, { useEffect } from "react";
 import Link from "next/link";
 
-interface ErrorPageProps {
-    searchParams: { [key: string]: string | string[] | undefined };
-}
+export default function Error({ error, reset }: { error: Error & { digest?: string }; reset: () => void }) {
+    useEffect(() => {
+        console.error(error);
+    }, [error]);
 
-export default function ErrorPage({ searchParams }: ErrorPageProps) {
-    const message = typeof searchParams.message === "string" ? searchParams.message : "General unknown error";
     return (
         <div className="p-4 space-y-4 font-sans">
             <h3 className="text-red-600">Sorry, an error occurred.</h3>
-            <p dangerouslySetInnerHTML={{ __html: message }} />
+            <p className="text-danger">{error.message || "General unknown error"}</p>
             <p>
                 If you do not know how to handle this error, please open an issue on
                 <a className="text-blue-500" href="https://github.com/firefly-iii/firefly-iii/issues"> GitHub</a>
