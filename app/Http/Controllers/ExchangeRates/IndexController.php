@@ -54,11 +54,11 @@ class IndexController extends Controller
 
     public function index(): View
     {
-        return view('exchange-rates.index');
+        return view('v2.exchange-rates.index');
     }
 
     public function rates(TransactionCurrency $from, TransactionCurrency $to): View
     {
-        return view('exchange-rates.rates', compact('from', 'to'));
+        return view('v2.exchange-rates.rates', compact('from', 'to'));
     }
 }
