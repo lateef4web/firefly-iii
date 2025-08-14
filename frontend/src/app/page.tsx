@@ -19,6 +19,11 @@ export default function Home() {
                             View on GitHub
                         </Link>
                     </p>
+                    <p>
+                        <Link href="/accounts" className="text-blue-500 underline">
+                            Accounts
+                        </Link>
+                    </p>
                 </main>
             </div>
         </Layout>
