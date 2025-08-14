@@ -20,7 +20,7 @@
                     </p>
                     {% if currencies|length > 0 %}
                         <div style="padding-left:8px;">
-                            {{ currencies.links('pagination.bootstrap-4')|raw }}
+                            {{ currencies.links('components.pagination')|raw }}
                         </div>
                         <table class="table table-hover">
                             <thead>
@@ -82,7 +82,7 @@
                             </tbody>
                         </table>
                         <div style="padding-left:8px;">
-                            {{ currencies.links('pagination.bootstrap-4')|raw }}
+                            {{ currencies.links('components.pagination')|raw }}
                         </div>
                     {% endif %}
                 </div>
