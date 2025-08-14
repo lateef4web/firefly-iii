@@ -2,12 +2,15 @@ import Head from "next/head";
 import Link from "next/link";
 import React, { ReactNode } from "react";
 
-interface LayoutProps {
+interface LayoutDefaultProps {
     children: ReactNode;
     title?: string;
+    styles?: ReactNode;
+    definitions?: ReactNode;
+    scripts?: ReactNode;
 }
 
-export default function Layout({children, title}: LayoutProps) {
+export default function LayoutDefault({children, title, styles, definitions, scripts}: LayoutDefaultProps) {
     const pageTitle = title ? `${title} » Firefly III` : "Firefly III";
     return (
         <>
@@ -15,6 +18,8 @@ export default function Layout({children, title}: LayoutProps) {
                 <title>{pageTitle}</title>
                 <meta charSet="UTF-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
+                {styles}
+                {definitions}
             </Head>
             <div className="wrapper" id="app">
                 <header className="main-header">
@@ -34,6 +39,7 @@ export default function Layout({children, title}: LayoutProps) {
                     <strong><a href="https://github.com/firefly-iii/firefly-iii">Firefly III</a></strong>
                 </footer>
             </div>
+            {scripts}
         </>
     );
 }
