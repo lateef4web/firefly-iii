@@ -55,18 +55,16 @@ export default function EditCurrency() {
 
     return (
         <Layout title={`Edit ${code}`}>
-            <form onSubmit={handleSubmit} className="form-horizontal">
-                <div className="box box-primary">
-                    <div className="box-body space-y-2">
-                        <input name="name" value={form.name} onChange={handleChange} className="form-control" />
-                        <input name="symbol" value={form.symbol} onChange={handleChange} className="form-control" />
-                        <input name="code" value={form.code} onChange={handleChange} className="form-control" />
-                        <input name="decimal_places" type="number" value={form.decimal_places} onChange={handleChange} className="form-control" />
-                        <p>Exchange rate vs {defaultCode}: {rate ?? 'N/A'}</p>
-                    </div>
-                    <div className="box-footer">
-                        <button type="submit" className="btn btn-success pull-right">Update currency</button>
-                    </div>
+            <form onSubmit={handleSubmit} className="max-w-md space-y-4">
+                <div className="space-y-2 bg-white p-4 rounded shadow">
+                    <input name="name" value={form.name} onChange={handleChange} className="w-full border rounded px-2 py-1" />
+                    <input name="symbol" value={form.symbol} onChange={handleChange} className="w-full border rounded px-2 py-1" />
+                    <input name="code" value={form.code} onChange={handleChange} className="w-full border rounded px-2 py-1" />
+                    <input name="decimal_places" type="number" value={form.decimal_places} onChange={handleChange} className="w-full border rounded px-2 py-1" />
+                    <p>Exchange rate vs {defaultCode}: {rate ?? 'N/A'}</p>
+                </div>
+                <div className="flex justify-end">
+                    <button type="submit" className="bg-green-600 text-white px-4 py-2 rounded">Update currency</button>
                 </div>
             </form>
         </Layout>
