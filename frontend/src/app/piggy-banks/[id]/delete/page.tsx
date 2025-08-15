@@ -17,7 +17,7 @@ export default function DeletePiggyBankPage() {
     <Layout title="Delete Piggy Bank">
       <form onSubmit={submit} className="space-y-4 max-w-md">
         <p>Are you sure you want to delete this piggy bank?</p>
-        <button type="submit" className="btn btn-danger">
+        <button type="submit" className="bg-red-600 text-white px-4 py-2 rounded">
           Delete
         </button>
       </form>

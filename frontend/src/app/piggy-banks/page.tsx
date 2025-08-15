@@ -30,7 +30,7 @@ export default function PiggyBanksPage() {
     <Layout title="Piggy Banks">
       <div className="space-y-4">
         <div>
-          <Link href="/piggy-banks/create" className="btn btn-success">
+          <Link href="/piggy-banks/create" className="bg-green-600 text-white px-4 py-2 rounded">
             Create new piggy bank
           </Link>
         </div>

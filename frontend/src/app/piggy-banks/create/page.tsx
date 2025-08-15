@@ -33,7 +33,7 @@ export default function CreatePiggyBankPage() {
             onChange={(e) => setTarget(Number(e.target.value))}
           />
         </div>
-        <button type="submit" className="btn btn-success">
+        <button type="submit" className="bg-green-600 text-white px-4 py-2 rounded">
           Save
         </button>
       </form>
