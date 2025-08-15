@@ -1,11 +1,11 @@
-<div class="row">
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-lg-offset-3 col-md-offset-3">
-        <div class="box box-success">
-            <div class="box-header with-border">
-                <h3 class="box-title">{{ ('no_'~type~'_title_'~objectType)|_ }}</h3>
+<div class="flex justify-center">
+    <div class="w-full max-w-2xl">
+        <div class="bg-white border rounded shadow">
+            <div class="border-b px-4 py-2">
+                <h3 class="text-lg font-semibold">{{ ('no_'~type~'_title_'~objectType)|_ }}</h3>
             </div>
 
-            <div class="box-body">
+            <div class="p-4">
                 <p>
                     {{ ('no_'~type~'_intro_'~objectType)|_ }}
                 </p>
@@ -13,14 +13,14 @@
                     {{ ('no_'~type~'_imperative_'~objectType)|_ }}
 
                 </p>
-                <p style="text-align: center;">
-                    <a class="btn btn-lg btn-success" href="{{ route }}">{{ ('no_'~type~'_create_'~objectType)|_ }}</a>
+                <p class="text-center">
+                    <a class="inline-block px-6 py-3 text-lg font-semibold text-white bg-green-500 rounded hover:bg-green-600" href="{{ route }}">{{ ('no_'~type~'_create_'~objectType)|_ }}</a>
                 </p>
             </div>
 
         </div>
     </div>
+    <script type="text/javascript" nonce="{{ JS_NONCE }}">
+        forceDemoOff = true;
+    </script>
 </div>
-<script type="text/javascript" nonce="{{ JS_NONCE }}">
-    forceDemoOff = true;
-</script>
