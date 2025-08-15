@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from '../styles/ItemList.module.css';
 
 export interface ItemListProps<T> {
   items: T[];
@@ -8,9 +7,9 @@ export interface ItemListProps<T> {
 
 export function ItemList<T>({ items, renderItem }: ItemListProps<T>) {
   return (
-    <ul className={styles.list}>
+    <ul className="list-none p-0 m-0">
       {items.map((item, idx) => (
-        <li key={idx} className={styles.item}>
+        <li key={idx} className="p-2 border-b border-gray-200">
           {renderItem(item, idx)}
         </li>
       ))}
