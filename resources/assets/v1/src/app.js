@@ -23,10 +23,15 @@
 * code may be modified to fit the specific needs of your application.
 */
 
-try {
-    window.$ = window.jQuery = require('jquery');
+import $ from 'jquery';
+import 'bootstrap-sass';
+import 'jquery-ui-dist/jquery-ui';
+import 'bootstrap-daterangepicker';
+import 'admin-lte';
+import introJs from 'intro.js';
+import accounting from 'accounting-js';
 
-    require('bootstrap-sass');
-} catch (e) {
-}
+window.$ = window.jQuery = $;
+window.introJs = introJs;
+window.accounting = accounting;
 
