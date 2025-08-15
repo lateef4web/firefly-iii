@@ -22,6 +22,7 @@ export default function LayoutDefault({children, title, styles, definitions, scr
                 {definitions}
             </Head>
             <div id="app" className="min-h-screen flex flex-col">
+                <a href="#main-content" className="skip-links">Skip to main content</a>
                 <header className="bg-gray-800 text-white p-4">
                     <Link href="/" className="text-xl font-bold">
                         <span className="sr-only">Firefly III</span>
@@ -45,7 +46,7 @@ export default function LayoutDefault({children, title, styles, definitions, scr
                             </Link>
                         </nav>
                     </aside>
-                    <main className="flex-1 p-4">
+                    <main id="main-content" className="flex-1 p-4">
                         {children}
                     </main>
                 </div>

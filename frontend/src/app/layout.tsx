@@ -1,5 +1,8 @@
 import type {Metadata} from "next";
 import "../styles/globals.scss";
+import "../styles/adminlte-filtered.scss";
+import "../styles/app.scss";
+import "../styles/grid-ff3-theme.css";
 import React from "react";
 
 export const metadata: Metadata = {
