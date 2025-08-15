@@ -46,7 +46,12 @@ export default function AttachmentIndex() {
             <h1 className="text-2xl mb-4">Attachments</h1>
             <form onSubmit={handleUpload} className="mb-4">
                 <input type="file" name="file" />
-                <button type="submit" className="btn btn-primary ml-2">Upload</button>
+                <button
+                    type="submit"
+                    className="ml-2 bg-blue-600 text-white px-4 py-2 rounded"
+                >
+                    Upload
+                </button>
             </form>
             <table className="table-auto w-full">
                 <thead>
