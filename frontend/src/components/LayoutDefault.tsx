@@ -30,7 +30,20 @@ export default function LayoutDefault({children, title, styles, definitions, scr
                 </header>
                 <div className="flex flex-1">
                     <aside className="w-64 bg-gray-100 p-4 hidden md:block">
-                        <section className="sidebar" />
+                        <nav className="space-y-2 text-sm">
+                            <Link
+                                href="/"
+                                className="block px-2 py-1 text-gray-700 hover:bg-gray-200 rounded"
+                            >
+                                Dashboard
+                            </Link>
+                            <Link
+                                href="/accounts"
+                                className="block px-2 py-1 text-gray-700 hover:bg-gray-200 rounded"
+                            >
+                                Accounts
+                            </Link>
+                        </nav>
                     </aside>
                     <main className="flex-1 p-4">
                         {children}
