@@ -238,12 +238,6 @@
             nonce="{{ JS_NONCE }}"></script>
 {% endif %}
 
-{# date range picker, current template, etc. #}
-<script src="v1/js/lib/daterangepicker.js?v={{ FF_VERSION }}" type="text/javascript" nonce="{{ JS_NONCE }}"></script>
-<script src="v1/lib/adminlte/js/adminlte.min.js?v={{ FF_VERSION }}" type="text/javascript"
-        nonce="{{ JS_NONCE }}"></script>
-<script type="text/javascript" src="v1/js/lib/accounting.min.js?v={{ FF_VERSION }}" nonce="{{ JS_NONCE }}"></script>
-
 {# Firefly III code #}
 <script type="text/javascript" src="v1/js/ff/firefly.js?v={{ FF_VERSION }}" nonce="{{ JS_NONCE }}"></script>
 <script type="text/javascript" src="v1/js/ff/help.js?v={{ FF_VERSION }}" nonce="{{ JS_NONCE }}"></script>
@@ -253,7 +247,6 @@
         var routeStepsUrl = "{{ route('json.intro', [current_route_name, objectType|default("")]) }}";
         var routeForFinishedTour = "{{ route('json.intro.finished', [current_route_name, objectType|default("")]) }}";
     </script>
-    <script type="text/javascript" src="v1/lib/intro/intro.min.js?v={{ FF_VERSION }}" nonce="{{ JS_NONCE }}"></script>
     <script type="text/javascript" src="v1/js/ff/intro/intro.js?v={{ FF_VERSION }}" nonce="{{ JS_NONCE }}"></script>
 {% endif %}
 
