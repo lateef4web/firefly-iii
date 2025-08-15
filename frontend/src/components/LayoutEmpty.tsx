@@ -16,9 +16,9 @@ export default function LayoutEmpty({children, title}: LayoutEmptyProps) {
                 <meta charSet="UTF-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
-            <div className="login-box">
-                <div className="login-logo">
-                    <Link href="/">
+            <div className="min-h-screen flex flex-col items-center justify-center space-y-6">
+                <div className="text-center text-4xl">
+                    <Link href="/" className="font-bold">
                         <strong>Firefly</strong>III
                     </Link>
                 </div>

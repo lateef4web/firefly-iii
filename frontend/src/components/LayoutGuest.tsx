@@ -17,18 +17,18 @@ export default function LayoutGuest({children, title, scripts}: LayoutGuestProps
                 <meta charSet="UTF-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
-            <div className="login-box">
-                <div className="login-logo">
-                    <Link href="/">
+            <div className="min-h-screen flex flex-col items-center justify-center space-y-6">
+                <div className="text-center text-4xl">
+                    <Link href="/" className="font-bold">
                         <strong>Firefly</strong>III
                     </Link>
                 </div>
                 {children}
-            </div>
-            <div className="text-center text-muted">
-                <small>
-                    Developed by James Cole, the source code is licensed under the <a href="https://www.gnu.org/licenses/agpl-3.0.html">AGPL-3.0-or-later</a>.
-                </small>
+                <div className="text-center text-gray-500 text-sm">
+                    <small>
+                        Developed by James Cole, the source code is licensed under the <a href="https://www.gnu.org/licenses/agpl-3.0.html" className="text-blue-600">AGPL-3.0-or-later</a>.
+                    </small>
+                </div>
             </div>
             {scripts}
         </>

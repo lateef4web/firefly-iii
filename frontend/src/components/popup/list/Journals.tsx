@@ -41,24 +41,16 @@ export const ListJournals: React.FC<ListJournalsProps> = ({
 }) => {
   let sum = 0;
   return (
-    <table className="table table-hover table-condensed">
+    <table className="w-full text-sm border-collapse">
       <thead>
-        <tr>
-          <th>&nbsp;</th>
-          <th>Description</th>
-          <th>Amount</th>
-          {!hideSource && <th className="hidden-xs">From</th>}
-          {!hideDestination && <th className="hidden-xs">To</th>}
-          {!hideBudget && (
-            <th className="hidden-xs">
-              <span className="fa fa-pie-chart fa-fw" title="Budget"></span>
-            </th>
-          )}
-          {!hideCategory && (
-            <th className="hidden-xs">
-              <span className="fa fa-bookmark fa-fw" title="Category"></span>
-            </th>
-          )}
+        <tr className="border-b">
+          <th className="p-2">&nbsp;</th>
+          <th className="p-2 text-left">Description</th>
+          <th className="p-2 text-left">Amount</th>
+          {!hideSource && <th className="p-2 hidden sm:table-cell">From</th>}
+          {!hideDestination && <th className="p-2 hidden sm:table-cell">To</th>}
+          {!hideBudget && <th className="p-2 hidden sm:table-cell" title="Budget">Budget</th>}
+          {!hideCategory && <th className="p-2 hidden sm:table-cell" title="Category">Category</th>}
         </tr>
       </thead>
       <tbody>
@@ -69,46 +61,40 @@ export const ListJournals: React.FC<ListJournalsProps> = ({
           }
           sum += amount;
           return (
-            <tr key={t.journal_id}>
-              <td className="hidden-xs">
-                {t.transaction_type_type === 'Withdrawal' && (
-                  <span className="fa fa-long-arrow-left fa-fw" title="Withdrawal"></span>
-                )}
-                {t.transaction_type_type === 'Deposit' && (
-                  <span className="fa fa-long-arrow-right fa-fw" title="Deposit"></span>
-                )}
-                {t.transaction_type_type === 'Transfer' && (
-                  <span className="fa fa-exchange fa-fw" title="Transfer"></span>
-                )}
+            <tr key={t.journal_id} className="border-b last:border-0">
+              <td className="p-2 hidden sm:table-cell">
+                {t.transaction_type_type === 'Withdrawal' && <span title="Withdrawal">←</span>}
+                {t.transaction_type_type === 'Deposit' && <span title="Deposit">→</span>}
+                {t.transaction_type_type === 'Transfer' && <span title="Transfer">⇄</span>}
               </td>
-              <td>
-                <a href={`#${t.transaction_group_id}`}>
+              <td className="p-2">
+                <a href={`#${t.transaction_group_id}`} className="text-blue-600 hover:underline">
                   {t.group_title ? `${t.group_title} (${t.description})` : t.description}
                 </a>
               </td>
-              <td>{formatAmount(amount, t.currency_symbol, t.currency_decimal_places)}</td>
+              <td className="p-2">{formatAmount(amount, t.currency_symbol, t.currency_decimal_places)}</td>
               {!hideSource && (
-                <td className="hidden-xs">
+                <td className="p-2 hidden sm:table-cell">
                   {t.source_account_id && (
-                    <a href={`#${t.source_account_id}`}>{t.source_account_name}</a>
+                    <a href={`#${t.source_account_id}`} className="text-blue-600 hover:underline">{t.source_account_name}</a>
                   )}
                 </td>
               )}
               {!hideDestination && (
-                <td className="hidden-xs">
+                <td className="p-2 hidden sm:table-cell">
                   {t.destination_account_id && (
-                    <a href={`#${t.destination_account_id}`}>{t.destination_account_name}</a>
+                    <a href={`#${t.destination_account_id}`} className="text-blue-600 hover:underline">{t.destination_account_name}</a>
                   )}
                 </td>
               )}
               {!hideBudget && (
-                <td className="hidden-xs">
-                  {t.budget_id && <a href={`#${t.budget_id}`}>{t.budget_name}</a>}
+                <td className="p-2 hidden sm:table-cell">
+                  {t.budget_id && <a href={`#${t.budget_id}`} className="text-blue-600 hover:underline">{t.budget_name}</a>}
                 </td>
               )}
               {!hideCategory && (
-                <td className="hidden-xs">
-                  {t.category_id && <a href={`#${t.category_id}`}>{t.category_name}</a>}
+                <td className="p-2 hidden sm:table-cell">
+                  {t.category_id && <a href={`#${t.category_id}`} className="text-blue-600 hover:underline">{t.category_name}</a>}
                 </td>
               )}
             </tr>
@@ -117,10 +103,10 @@ export const ListJournals: React.FC<ListJournalsProps> = ({
       </tbody>
       <tfoot>
         <tr>
-          <td colSpan={2} style={{ textAlign: 'right' }}>
+          <td colSpan={2} className="p-2 text-right">
             <em>sum:</em>
           </td>
-          <td>
+          <td className="p-2">
             {sum !== 0 &&
               formatAmount(sum, journals[0]?.currency_symbol || '', journals[0]?.currency_decimal_places || 2)}
           </td>

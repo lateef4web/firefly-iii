@@ -25,15 +25,15 @@ export default function RuleActionRow({index, action, actionOptions, onChange, o
             <td>
                 <button
                     type="button"
-                    className="btn btn-danger btn-sm"
+                    className="bg-red-600 text-white px-2 py-1 rounded"
                     onClick={() => onRemove(index)}
                 >
-                    <span className="fa fa-trash" />
+                    🗑️
                 </button>
             </td>
             <td>
                 <select
-                    className="form-control"
+                    className="border rounded px-2 py-1"
                     value={action.type}
                     onChange={e => handle('type', e.target.value)}
                 >
@@ -45,7 +45,7 @@ export default function RuleActionRow({index, action, actionOptions, onChange, o
             <td>
                 <input
                     type="text"
-                    className="form-control"
+                    className="border rounded px-2 py-1"
                     value={action.value}
                     onChange={e => handle('value', e.target.value)}
                 />
