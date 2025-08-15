@@ -18,8 +18,7 @@
  * along with this program.  If not, see https://www.gnu.org/licenses/.
  */
 
-import '../../boot/bootstrap.js';
-import dates from "../shared/dates.js";
+import {usePageTemplate, dates} from "../template.js";
 import Post from "../../api/v1/model/user-group/post.js";
 import i18next from "i18next";
 import Get from "../../api/v1/model/user-group/get.js";
@@ -96,25 +95,7 @@ let administrations = function () {
     }
 }
 
-
-let comps = {administrations, dates};
-
-function loadPage() {
-    Object.keys(comps).forEach(comp => {
-        console.log(`Loading page component "${comp}"`);
-        let data = comps[comp]();
-        Alpine.data(comp, () => data);
-    });
-    Alpine.start();
-}
-
-// wait for load until bootstrapped event is received.
-document.addEventListener('firefly-iii-bootstrapped', () => {
-    console.log('Loaded through event listener.');
-    loadPage();
-});
-// or is bootstrapped before event is triggered.
-if (window.bootstrapped) {
-    console.log('Loaded through window variable.');
-    loadPage();
+export default function AdministrationEditPage() {
+    usePageTemplate({administrations, dates});
+    return null;
 }

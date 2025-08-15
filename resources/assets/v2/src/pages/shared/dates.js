@@ -35,7 +35,8 @@ import {
 import format from '../../util/format'
 import i18next from "i18next";
 
-export default () => ({
+export default function useDates() {
+    return ({
     range: {
         start: null, end: null
     },
@@ -177,3 +178,4 @@ export default () => ({
     },
 
 });
+}

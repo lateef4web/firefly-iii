@@ -18,8 +18,8 @@
  * along with this program.  If not, see https://www.gnu.org/licenses/.
  */
 
-import '../../boot/bootstrap.js';
-import dates from "../shared/dates.js";
+import {useEffect} from 'react';
+import {usePageTemplate, dates} from "../template.js";
 import i18next from "i18next";
 import {format} from "date-fns";
 import formatMoney from "../../util/format-money.js";
@@ -57,8 +57,6 @@ if(sortingColumn[0] === '-') {
 page = parseInt(params.page ?? 1);
 
 
-showInternalsButton();
-showWizardButton();
 
 // TODO currency conversion
 // TODO page cleanup and recycle for transaction lists.
@@ -446,32 +444,12 @@ let index = function () {
     }
 }
 
-let comps = {index, dates};
-
-function loadPage() {
-    Object.keys(comps).forEach(comp => {
-        console.log(`Loading page component "${comp}"`);
-        let data = comps[comp]();
-        Alpine.data(comp, () => data);
-    });
-
-
-    Alpine.magic("t", (el) => {
-        return (name, vars) => {
-            return i18next.t(name, vars);
-        };
-    });
-
-    Alpine.start();
-}
-
-// wait for load until bootstrapped event is received.
-document.addEventListener('firefly-iii-bootstrapped', () => {
-    console.log('Loaded through event listener.');
-    loadPage();
-});
-// or is bootstrapped before event is triggered.
-if (window.bootstrapped) {
-    console.log('Loaded through window variable.');
-    loadPage();
+export default function AccountsPage() {
+    useEffect(() => {
+        showInternalsButton();
+        showWizardButton();
+        Alpine.magic("t", () => (name, vars) => i18next.t(name, vars));
+    }, []);
+    usePageTemplate({index, dates});
+    return null;
 }
