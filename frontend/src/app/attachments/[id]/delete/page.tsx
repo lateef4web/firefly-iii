@@ -23,8 +23,18 @@ export default function DeleteAttachment({ params }: { params: { id: string } })
         <Layout title="Delete attachment">
             <h1 className="text-2xl mb-4">Delete attachment</h1>
             <p className="mb-4">Are you sure you want to delete {name}?</p>
-            <button onClick={destroy} className="btn btn-danger mr-2">Delete</button>
-            <button onClick={() => router.back()} className="btn">Cancel</button>
+            <button
+                onClick={destroy}
+                className="mr-2 bg-red-600 text-white px-4 py-2 rounded"
+            >
+                Delete
+            </button>
+            <button
+                onClick={() => router.back()}
+                className="bg-gray-200 text-gray-700 px-4 py-2 rounded"
+            >
+                Cancel
+            </button>
         </Layout>
     );
 }
