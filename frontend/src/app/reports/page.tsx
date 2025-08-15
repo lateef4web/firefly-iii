@@ -44,20 +44,20 @@ export default function ReportsPage() {
   return (
     <Layout title="Reports">
       <div className="space-y-8">
-        <div className="box">
-          <div className="box-header with-border">
-            <h3 className="box-title">Account Balances</h3>
+        <div className="border rounded shadow">
+          <div className="border-b p-4">
+            <h3 className="text-lg font-semibold">Account Balances</h3>
           </div>
-          <div className="box-body">
+          <div className="p-4">
             <Line data={data} options={options} />
           </div>
         </div>
 
-        <div className="box">
-          <div className="box-header with-border">
-            <h3 className="box-title">Summary</h3>
+        <div className="border rounded shadow">
+          <div className="border-b p-4">
+            <h3 className="text-lg font-semibold">Summary</h3>
           </div>
-          <div className="box-body">
+          <div className="p-4">
             <table className="table-auto w-full">
               <tbody>
                 {summary.map((item) => (
