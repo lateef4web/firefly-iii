@@ -83,13 +83,18 @@ export default function CurrencyIndex() {
 
     return (
         <Layout title="Currencies">
-            <div className="box">
-                <div className="box-header with-border flex justify-between items-center">
-                    <h3 className="box-title">Currencies</h3>
-                    <Link href="/currencies/create" className="btn btn-success">Create currency</Link>
+            <div className="rounded border border-gray-200">
+                <div className="flex items-center justify-between border-b p-4">
+                    <h3 className="text-lg font-semibold">Currencies</h3>
+                    <Link
+                        href="/currencies/create"
+                        className="rounded bg-green-600 px-3 py-2 text-white hover:bg-green-700"
+                    >
+                        Create currency
+                    </Link>
                 </div>
-                <div className="box-body">
-                    <table className="table table-hover">
+                <div className="p-4">
+                    <table className="w-full border-collapse">
                         <thead>
                         <tr>
                             <th>Code</th>
@@ -101,14 +106,24 @@ export default function CurrencyIndex() {
                         </thead>
                         <tbody>
                         {currencies.map(c => (
-                            <tr key={c.id}>
+                            <tr key={c.id} className="hover:bg-gray-50">
                                 <td>{c.code}</td>
                                 <td>{c.name} ({c.symbol})</td>
                                 <td>{c.decimal_places}</td>
                                 <td>{rates[c.code] ?? 'N/A'}</td>
                                 <td>
-                                    <Link href={`/currencies/${c.code}/edit`} className="btn btn-xs btn-default mr-2">Edit</Link>
-                                    <Link href={`/currencies/${c.code}/delete`} className="btn btn-xs btn-danger">Delete</Link>
+                                    <Link
+                                        href={`/currencies/${c.code}/edit`}
+                                        className="mr-2 rounded bg-gray-200 px-2 py-1 text-xs text-gray-800 hover:bg-gray-300"
+                                    >
+                                        Edit
+                                    </Link>
+                                    <Link
+                                        href={`/currencies/${c.code}/delete`}
+                                        className="rounded bg-red-600 px-2 py-1 text-xs text-white hover:bg-red-700"
+                                    >
+                                        Delete
+                                    </Link>
                                 </td>
                             </tr>
                         ))}
