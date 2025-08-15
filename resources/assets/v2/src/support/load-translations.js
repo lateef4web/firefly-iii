@@ -48,7 +48,7 @@ function loadTranslations(locale) {
                         load: 'languageOnly',
                         expirationTime: expireTime
                     }, {
-                        loadPath: './v2/i18n/{{lng}}.json'
+                        loadPath: './i18n/{{lng}}.json'
                     }]
                 }
             });
