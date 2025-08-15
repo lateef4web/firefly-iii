@@ -61,15 +61,15 @@ export default function RuleForm({initial}: {initial?: RuleData}) {
         <form onSubmit={handleSubmit} className="space-y-4">
             <div>
                 <label className="block">Title</label>
-                <input className="form-control" value={title} onChange={e => setTitle(e.target.value)} />
+                <input className="w-full border rounded px-2 py-1" value={title} onChange={e => setTitle(e.target.value)} />
             </div>
             <div>
                 <label className="block">Description</label>
-                <input className="form-control" value={description} onChange={e => setDescription(e.target.value)} />
+                <input className="w-full border rounded px-2 py-1" value={description} onChange={e => setDescription(e.target.value)} />
             </div>
             <div>
                 <h3>Triggers</h3>
-                <table className="table">
+                <table className="w-full border-collapse">
                     <tbody>
                     {triggers.map((trigger, index) => (
                         <RuleTriggerRow
@@ -83,13 +83,13 @@ export default function RuleForm({initial}: {initial?: RuleData}) {
                     ))}
                     </tbody>
                 </table>
-                <button type="button" className="btn btn-default" onClick={addTrigger}>
+                <button type="button" className="bg-gray-200 text-gray-800 px-3 py-1 rounded" onClick={addTrigger}>
                     Add trigger
                 </button>
             </div>
             <div>
                 <h3>Actions</h3>
-                <table className="table">
+                <table className="w-full border-collapse">
                     <tbody>
                     {actions.map((action, index) => (
                         <RuleActionRow
@@ -103,12 +103,12 @@ export default function RuleForm({initial}: {initial?: RuleData}) {
                     ))}
                     </tbody>
                 </table>
-                <button type="button" className="btn btn-default" onClick={addAction}>
+                <button type="button" className="bg-gray-200 text-gray-800 px-3 py-1 rounded" onClick={addAction}>
                     Add action
                 </button>
             </div>
             <div>
-                <button type="submit" className="btn btn-primary">Save rule</button>
+                <button type="submit" className="bg-blue-600 text-white px-4 py-2 rounded">Save rule</button>
             </div>
         </form>
     );

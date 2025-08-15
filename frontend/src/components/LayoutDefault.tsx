@@ -21,22 +21,27 @@ export default function LayoutDefault({children, title, styles, definitions, scr
                 {styles}
                 {definitions}
             </Head>
-            <div className="wrapper" id="app">
-                <header className="main-header">
-                    <Link href="/" className="logo">
-                        <span className="logo-mini">FF</span>
-                        <span className="logo-lg"><strong>Firefly</strong>III</span>
+            <div id="app" className="min-h-screen flex flex-col">
+                <header className="bg-gray-800 text-white p-4">
+                    <Link href="/" className="text-xl font-bold">
+                        <span className="sr-only">Firefly III</span>
+                        FF
                     </Link>
                 </header>
-                <aside className="main-sidebar">
-                    <section className="sidebar"></section>
-                </aside>
-                <div className="content-wrapper">
-                    <section className="content-header"></section>
-                    <section className="content">{children}</section>
+                <div className="flex flex-1">
+                    <aside className="w-64 bg-gray-100 p-4 hidden md:block">
+                        <section className="sidebar" />
+                    </aside>
+                    <main className="flex-1 p-4">
+                        {children}
+                    </main>
                 </div>
-                <footer className="main-footer">
-                    <strong><a href="https://github.com/firefly-iii/firefly-iii">Firefly III</a></strong>
+                <footer className="bg-gray-100 text-center p-4">
+                    <strong>
+                        <a href="https://github.com/firefly-iii/firefly-iii" className="text-blue-600">
+                            Firefly III
+                        </a>
+                    </strong>
                 </footer>
             </div>
             {scripts}
