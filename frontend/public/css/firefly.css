@@ -56,7 +56,7 @@ input.ti-new-tag-input {
 
 .general-chart-error {
     height: 30px;
-    background: url('/v1/images/error.png') no-repeat center center;
+    background: url('/images/v1/error.png') no-repeat center center;
 }
 
 p.tagcloud .label {
@@ -117,7 +117,7 @@ body.waiting * {
 }
 
 .loading {
-    background: url('/v1/images/loading-small.gif') no-repeat center center;
+    background: url('/images/v1/loading-small.gif') no-repeat center center;
     min-height: 30px;
 }
 

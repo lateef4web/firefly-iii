@@ -15,6 +15,10 @@ export default function RootLayout({children}: Readonly<{
 }>) {
     return (
         <html lang="en">
+            <head>
+                <link rel="stylesheet" href="/css/gf-roboto.css" />
+                <link rel="stylesheet" href="/css/gf-source.css" />
+            </head>
             <body className="antialiased">{children}</body>
         </html>
     );
