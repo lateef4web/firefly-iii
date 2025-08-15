@@ -18,8 +18,8 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import '../../boot/bootstrap.js';
-import dates from '../../pages/shared/dates.js';
+import {useEffect} from 'react';
+import {usePageTemplate, dates} from '../template.js';
 import boxes from './boxes.js';
 import accounts from './accounts.js';
 import budgets from './budgets.js';
@@ -97,25 +97,10 @@ const comps = {
     piggies
 };
 
-showInternalsButton();
-
-//let i18n;
-
-function loadPage(comps) {
-    Object.keys(comps).forEach(comp => {
-        let data = comps[comp]();
-        Alpine.data(comp, () => data);
-    });
-    Alpine.start();
-}
-
-// wait for load until bootstrapped event is received.
-document.addEventListener('firefly-iii-bootstrapped', () => {
-    console.log('Loaded through event listener.');
-    loadPage(comps);
-});
-// or is bootstrapped before event is triggered.
-if (window.bootstrapped) {
-    console.log('Loaded through window variable.');
-    loadPage(comps);
+export default function DashboardPage() {
+    useEffect(() => {
+        showInternalsButton();
+    }, []);
+    usePageTemplate(comps);
+    return null;
 }

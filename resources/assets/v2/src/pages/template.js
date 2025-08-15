@@ -18,68 +18,31 @@
  * along with this program.  If not, see https://www.gnu.org/licenses/.
  */
 
+import {useEffect} from 'react';
 import '../../boot/bootstrap.js';
 import dates from "./shared/dates.js";
 
+export {dates};
 
-let somethings = function() {
-    return {
-        // notifications
-        // TODO duplicate code
-        notifications: {
-            error: {
-                show: false, text: '', url: '',
-            }, success: {
-                show: false, text: '', url: '',
-            }, wait: {
-                show: false, text: '',
-
-            }
-        },
-        // state of the form is stored in formState:
-        // TODO duplicate code
-        formStates: {
-            isSubmitting: false,
-            returnHereButton: false,
-            saveAsNewButton: false, // edit form only
-            resetButton: false,
-        },
-
-        // form behaviour
-        // TODO duplicate code
-        formBehaviour: {
-            formType: 'create', // or 'update'
-        },
-
-        pageProperties: {},
-        functionName() {
-
-        },
-        init() {
-
+export function usePageTemplate(comps) {
+    useEffect(() => {
+        function loadPage() {
+            Object.keys(comps).forEach(comp => {
+                console.log(`Loading page component "${comp}"`);
+                const data = comps[comp]();
+                Alpine.data(comp, () => data);
+            });
+            Alpine.start();
         }
-    }
-}
 
-
-let comps = {somethings, dates};
-
-function loadPage() {
-    Object.keys(comps).forEach(comp => {
-        console.log(`Loading page component "${comp}"`);
-        let data = comps[comp]();
-        Alpine.data(comp, () => data);
-    });
-    Alpine.start();
-}
-
-// wait for load until bootstrapped event is received.
-document.addEventListener('firefly-iii-bootstrapped', () => {
-    console.log('Loaded through event listener.');
-    loadPage();
-});
-// or is bootstrapped before event is triggered.
-if (window.bootstrapped) {
-    console.log('Loaded through window variable.');
-    loadPage();
+        if (window.bootstrapped) {
+            console.log('Loaded through window variable.');
+            loadPage();
+        } else {
+            document.addEventListener('firefly-iii-bootstrapped', () => {
+                console.log('Loaded through event listener.');
+                loadPage();
+            }, {once: true});
+        }
+    }, [comps]);
 }
