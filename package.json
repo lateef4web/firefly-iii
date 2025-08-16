@@ -1,13 +1,16 @@
 {
     "scripts": {
-        "postinstall": "patch-package --error-on-fail"
+        "postinstall": "patch-package --error-on-fail",
+        "test": "jest"
     },
     "workspaces": [
         "resources/assets/v1",
         "resources/assets/v2"
     ],
     "devDependencies": {
-        "postcss": "^8.4.47"
+        "postcss": "^8.4.47",
+        "jest": "^30.0.5",
+        "supertest": "^7.1.1"
     },
     "dependencies": {
         "@react-email/components": "^0.5.0",
