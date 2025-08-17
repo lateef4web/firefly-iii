@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a5d8aa4-1157-44dc-b694-37237e9d6990" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/config/env.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -232,7 +233,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\wamp64\\www\\firefly-iii\\frontend\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\wamp64\\www\\firefly-iii\\backend\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -270,7 +271,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755071206177</updated>
-      <workItem from="1755071208129" duration="29132000" />
+      <workItem from="1755071208129" duration="29696000" />
     </task>
     <servers />
   </component>
