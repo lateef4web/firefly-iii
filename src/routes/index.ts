@@ -4,6 +4,8 @@ import health from './health';
 
 const router = Router();
 
-router.use(health);
+router.get('/health', (_req, res) => {
+  res.sendStatus(200);
+});
 
 export default router;
