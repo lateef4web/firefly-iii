@@ -1,7 +1,7 @@
 {
     "scripts": {
         "postinstall": "patch-package --error-on-fail",
-        "test": "jest"
+        "test": "jest --config backend/jest.config.ts"
     },
     "workspaces": [
         "resources/assets/v1",
