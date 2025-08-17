@@ -1,1 +1,1 @@
-export function util(): void {}
+export {};
