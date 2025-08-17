@@ -1,7 +1,23 @@
-import { Request, Response, NextFunction } from 'express';
 
-export default function (_req: Request, _res: Response, next: NextFunction): void {
-  next();
+import express, { Application } from 'express';
+import cors from 'cors';
+import helmet from 'helmet';
+import compression from 'compression';
+import morgan from 'morgan';
+import rateLimit from 'express-rate-limit';
+
+export default function (app: Application): void {
+  app.use(express.json());
+  app.use(cors());
+  app.use(helmet());
+  app.use(compression());
+  app.use(morgan('combined'));
+  app.use(
+    rateLimit({
+      windowMs: 15 * 60 * 1000,
+      max: 100,
+    })
+  );
 }
 
 export { default as errorHandler } from './errorHandler';
