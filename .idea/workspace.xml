@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a5d8aa4-1157-44dc-b694-37237e9d6990" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/firefly/src/app/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firefly/src/app/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/sanctum.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/sanctum.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/firefly/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/firefly/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/eslint.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/firefly/eslint.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/firefly/next.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/firefly/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/postcss.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/firefly/postcss.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/file.svg" beforeDir="false" afterPath="$PROJECT_DIR$/firefly/public/file.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/globe.svg" beforeDir="false" afterPath="$PROJECT_DIR$/firefly/public/globe.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/next.svg" beforeDir="false" afterPath="$PROJECT_DIR$/firefly/public/next.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/vercel.svg" beforeDir="false" afterPath="$PROJECT_DIR$/firefly/public/vercel.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/window.svg" beforeDir="false" afterPath="$PROJECT_DIR$/firefly/public/window.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/firefly/src/app/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/firefly/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/firefly/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,21 +226,26 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/wamp64/www/firefly-iii/frontend/src/app",
+    "last_opened_file_path": "C:/wamp64/www/firefly-iii/frontend/public/fonts",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\wamp64\\www\\firefly-iii\\firefly\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\wamp64\\www\\firefly-iii\\frontend\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\firefly-iii\frontend\src\app" />
+      <recent name="C:\wamp64\www\firefly-iii\frontend\public\fonts" />
+      <recent name="C:\wamp64\www\firefly-iii\frontend\public\fonts\fa" />
+      <recent name="C:\wamp64\www\firefly-iii\frontend\public\fonts\bs" />
+      <recent name="C:\wamp64\www\firefly-iii\frontend\public\images" />
+      <recent name="C:\wamp64\www\firefly-iii\frontend\public\images\v1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\firefly-iii\backend" />
       <recent name="C:\wamp64\www\firefly-iii\frontend" />
     </key>
   </component>
@@ -283,11 +270,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755071206177</updated>
-      <workItem from="1755071208129" duration="11713000" />
+      <workItem from="1755071208129" duration="29132000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/frontend/next.config.js" />
+      </list>
+    </option>
   </component>
 </project>
