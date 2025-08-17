@@ -19,3 +19,5 @@ export default function (app: Application): void {
     })
   );
 }
+
+export { default as errorHandler } from './errorHandler';

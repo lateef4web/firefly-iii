@@ -1,9 +1,9 @@
-
 import { Router } from 'express';
-import health from './health';
 
 const router = Router();
 
-router.use(health);
+router.get('/health', (_req, res) => {
+  res.json({ status: 'ok' });
+});
 
 export default router;
