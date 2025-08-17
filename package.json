@@ -1,13 +1,26 @@
 {
     "scripts": {
-        "postinstall": "patch-package --error-on-fail"
+        "postinstall": "patch-package --error-on-fail",
+        "test": "jest --config backend/jest.config.ts"
     },
     "workspaces": [
         "resources/assets/v1",
         "resources/assets/v2"
     ],
     "devDependencies": {
-        "postcss": "^8.4.47"
+        "@types/jest": "^30.0.0",
+        "@types/supertest": "^6.0.3",
+        "@typescript-eslint/eslint-plugin": "^8.39.1",
+        "@typescript-eslint/parser": "^8.39.1",
+        "eslint": "^9.33.0",
+        "jest": "^30.0.5",
+        "postcss": "^8.4.47",
+        "prettier": "^3.6.2",
+        "supertest": "^7.1.4",
+        "ts-jest": "^29.4.1",
+        "ts-node": "^10.9.2",
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^5.9.2"
     },
     "dependencies": {
         "@react-email/components": "^0.5.0",
