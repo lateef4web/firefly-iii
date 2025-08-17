@@ -1,10 +1,12 @@
 import express from 'express';
 import healthRouter from './routes/health';
+import exchangeRatesRouter from './routes/exchangeRates';
 import errorHandler from './middleware/errorHandler';
 
 const app = express();
 
 app.use('/health', healthRouter);
+app.use('/exchange-rates', exchangeRatesRouter);
 
 app.use(errorHandler);
 
