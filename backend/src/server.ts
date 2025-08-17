@@ -1,10 +1,10 @@
 import express from 'express';
-import healthRouter from './routes/health';
-import errorHandler from './middleware/errorHandler';
+import router from './routes';
+import { errorHandler } from './middleware';
 
 const app = express();
 
-app.use('/health', healthRouter);
+app.use(router);
 
 app.use(errorHandler);
 
