@@ -4,6 +4,7 @@
 public/hot
 npm-debug.log
 yarn-error.log
+package-lock.json
 .env
 /.ci/php-cs-fixer/vendor
 coverage.xml
